@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap');
+h1,
+.card-title,
+a,
+#toast {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hed {
+    color: #2a3254;
+    margin-top: 5%;
+    font-size: 5rem;
+}
+
+.card {
+    box-shadow: 0px 15px 35px 1px rgba(50, 88, 130, 0.32);
+    border-radius: 35px;
+    transition: transform .2s;
+    display: inline-block;
+    margin: 15px;
+}
+
+.card-body {
+    padding: 50px;
+    margin-top: -60px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease-in-out;
+}
+
+.card-body a {
+    visibility: hidden;
+}
+
+.card:hover>.card-body {
+    margin-top: -10px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card:hover>.card-body>a {
+    visibility: visible;
+}
+
+.first-image {
+    width: 100%;
+}
+
+#project {
+    font-size: 5rem;
+    margin-top: 5%;
+}

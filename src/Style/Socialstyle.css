@@ -1,0 +1,71 @@
+/*======= Main CSS style starts =======*/
+
+.social-list {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.social-list li {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+.social-list li:last-of-type {
+    margin-right: 0;
+}
+
+.social-icon {
+    width: 64px;
+    height: 64px;
+    border: 4px solid #fa0546;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.social-icon:active {
+    border: 4px solid #fa0546;
+}
+
+.social-icon:focus {
+    border: 4px solid #fa0546;
+}
+
+.social-icon:visited {
+    border: 4px solid #fa0546;
+}
+
+.social-icon span {
+    right: 4px;
+    bottom: 4px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 50px;
+    background: #fa0546;
+    color: #eaeaea;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    -webkit-box-shadow: 0 2px 16px rgba(250, 5, 70, 0.5);
+    box-shadow: 0 2px 16px rgba(250, 5, 70, 0.5);
+    text-shadow: 0px 0px 0px rgb(212, 0, 32), 1px 1px 0px rgb(212, 0, 32), 2px 2px 0px rgb(212, 0, 32), 3px 3px 0px rgb(212, 0, 32), 4px 4px 0px rgb(212, 0, 32), 5px 5px 0px rgb(212, 0, 32), 6px 6px 0px rgb(212, 0, 32), 7px 7px 0px rgb(212, 0, 32), 8px 8px 0px rgb(212, 0, 32), 9px 9px 0px rgb(212, 0, 32), 10px 10px 0px rgb(212, 0, 32), 11px 11px 0px rgb(212, 0, 32), 12px 12px 0px rgb(212, 0, 32), 13px 13px 0px rgb(212, 0, 32), 14px 14px 0px rgb(212, 0, 32), 15px 15px 0px rgb(212, 0, 32), 16px 16px 0px rgb(212, 0, 32), 17px 17px 0px rgb(212, 0, 32), 18px 18px 0px rgb(212, 0, 32), 19px 19px 0px rgb(212, 0, 32), 20px 20px 0px rgb(212, 0, 32), 21px 21px 0px rgb(212, 0, 32), 22px 22px 0px rgb(212, 0, 32), 23px 23px 0px rgb(212, 0, 32), 24px 24px 0px rgb(212, 0, 32), 25px 25px 0px rgb(212, 0, 32), 26px 26px 0px rgb(212, 0, 32), 27px 27px 0px rgb(212, 0, 32);
+}
+
+.social-icon:hover span {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+.social-icon:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}

@@ -1,0 +1,219 @@
+    @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
+    h2 {
+        margin-top: 0;
+        margin-bottom: 2rem;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .title {
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        align-self: center;
+        padding: 2rem;
+        text-align: center;
+        background-color: #0c0c0c;
+    }
+    
+    .title .smallsep {
+        background: #ffffff;
+        height: 2px;
+        width: 270px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        text-align: center;
+        transform: translateY(-1000px);
+        animation: 1.2s slideIn ease-in-out forwards 1s;
+    }
+    
+    @keyframes skewBg {
+        0% {
+            transform: scale(.5);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    @keyframes underline {
+        100% {
+            width: 100%;
+        }
+    }
+    
+    @keyframes slideIn {
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    /*****************************************/
+    
+    @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+    .container {
+        margin-top: 180px;
+        color: #e5e5e5;
+        font-size: 3.26rem;
+        text-transform: uppercase;
+        height: 10vh;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-700px);
+        animation: 1.2s slideIn ease-in-out forwards 1s;
+    }
+    
+    .animation {
+        height: 80px;
+        overflow: hidden;
+        margin-left: 1rem;
+    }
+    
+    .animation>div>div {
+        padding: 0.25rem 0.75rem;
+        height: 3.90rem;
+        margin-bottom: 2.81rem;
+        display: inline-block;
+    }
+    
+    .animation div:first-child {
+        animation: text-animation 8s infinite;
+    }
+    
+    .first div {
+        color: #20a7d8;
+    }
+    
+    .second div {
+        color: #CD921E;
+    }
+    
+    .third div {
+        color: #c10528;
+    }
+    
+    @keyframes text-animation {
+        0% {
+            margin-top: 0rem;
+        }
+        10% {
+            margin-top: 0.1rem;
+        }
+        20% {
+            margin-top: -5.62rem;
+        }
+        30% {
+            margin-top: -5.62rem;
+        }
+        40% {
+            margin-top: -12.24rem;
+        }
+        60% {
+            margin-top: -12.24rem;
+        }
+        70% {
+            margin-top: -5.62rem;
+        }
+        80% {
+            margin-top: -5.62rem;
+        }
+        90% {
+            margin-top: 0;
+        }
+        100% {
+            margin-top: 0;
+        }
+    }
+    /*****************************/
+    
+    .imgs {
+        position: relative;
+        display: block;
+        margin-top: 2rem;
+        transition: transform 0.2s;
+        border-radius: 10rem;
+        width: 20vh;
+        height: 25vh;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateY(-400px);
+        animation: 1.2s slideIn ease-in-out forwards 1s;
+    }
+    
+    img:hover {
+        --hover: 0.5;
+    }
+    /******** Name Font ************/
+    
+    @media only screen and (max-width: 600px) {
+        .container {
+            color: #e5e5e5;
+            font-size: 1.26rem;
+            text-transform: uppercase;
+            align-items: center;
+            justify-content: center;
+            transform: translateY(-700px);
+            animation: 1.2s slideIn ease-in-out forwards 1s;
+        }
+        .heading {
+            font-size: 1rem;
+            color: #e5e5e5;
+        }
+    }
+    
+    .heading {
+        transform: translateY(-50px);
+        animation: 1.2s slideIn ease-in-out forwards 1s;
+        z-index: 10;
+        opacity: 0;
+        color: #e5e5e5;
+    }
+    
+    .awesome {
+        font-family: futura;
+        font-style: italic;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #313131;
+        font-size: 45px;
+        font-weight: bold;
+        position: absolute;
+        animation: colorchange 35s infinite alternate;
+    }
+    
+    @keyframes colorchange {
+        0% {
+            color: rgb(135, 135, 222);
+        }
+        10% {
+            color: #8e44ad;
+        }
+        20% {
+            color: #1abc9c;
+        }
+        30% {
+            color: #d35400;
+        }
+        40% {
+            color: blue;
+        }
+        50% {
+            color: #34495e;
+        }
+        60% {
+            color: blue;
+        }
+        70% {
+            color: #2980b9;
+        }
+        80% {
+            color: #f1c40f;
+        }
+        90% {
+            color: #2980b9;
+        }
+        100% {
+            color: pink;
+        }
+    }
